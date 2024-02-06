@@ -27,6 +27,7 @@ namespace ClubDb
         private void button1_Click(object sender, EventArgs e)
         {
             int vp;
+
             int.TryParse(textBox1.Text, out vp);
             this.parentTableAdapter.Insert(vp, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text);
             this.parentTableAdapter.Fill(this.dataSet1.Parent);

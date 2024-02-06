@@ -27,6 +27,7 @@ namespace ClubDb
         private void button1_Click(object sender, EventArgs e)
         {
             int vp;
+
             int vp2;
             int.TryParse(textBox1.Text, out vp);
             int.TryParse(comboBox1.Text, out vp2);
